@@ -1,0 +1,46 @@
+# Entorno virtual
+venv/
+ENV/
+env/
+.venv/
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos de configuración del editor
+.vscode/
+.idea/
+
+# Archivos de entorno
+.env
+
+# Archivos de logs
+*.log
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de prueba
+*.pytest_cache/
+.pytest_cache/
+
+# Archivos de dependencias si se generan automáticamente
+pip-log.txt
+
+# Archivos específicos de VSCode (opcional)
+*.code-workspace
+
+# Archivos de base de datos o pruebas locales (si los generas)
+*.sqlite3
+*.db
+
+# Jupyter notebooks checkpoints (por si acaso)
+.ipynb_checkpoints/
+
+# Carpeta de dist o builds si haces empaquetado
+build/
+dist/
+*.egg-info/
